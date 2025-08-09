@@ -50,24 +50,6 @@ To run this app locally, follow these steps:
 
 ### Visit the app in your browser at http://127.0.0.1:5000/ 🚀.
 
-## 🌍 Deployment
-
-This app is deployed on **Render** and can be accessed at the following link:
-
-Flask Scientific Calculator on Render
-
-To deploy the app on Render:
-
-Go to Render.com and create a new web service.
-
-Link your GitHub repository (thereseguii/calculator).
-
-Set the Start Command to:
-```
-gunicorn app:app
-```
-Add the PostgreSQL database to your service and configure the DATABASE_URL in Render's environment variables.
-
 ## 🖥️ Technologies Used
 - Python 3
 
